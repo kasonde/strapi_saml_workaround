@@ -1,0 +1,14 @@
+{
+  "collectionName": "ssos",
+  "info": {
+    "name": "sso",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {}
+}

@@ -1,0 +1,57 @@
+{
+  "routes": [
+    {
+      "method": "POST", 
+      "path": "/admin/connect/:provider",
+      "handler": "sso.ssoLogin"
+    },
+    {
+      "method": "GET",
+      "path": "/ssos",
+      "handler": "sso.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssos/count",
+      "handler": "sso.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ssos/:id",
+      "handler": "sso.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ssos",
+      "handler": "sso.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ssos/:id",
+      "handler": "sso.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ssos/:id",
+      "handler": "sso.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
