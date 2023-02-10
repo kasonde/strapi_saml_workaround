@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
   host: env("HOST", "0.0.0.0"),
   port: env.int("PORT", 1337),
   url: env("SERVER_URL", "http://localhost:1337"), // this could be an ngrok url as well.
-  proxy: true,
+  // proxy: true,
   admin: {
     auth: {
       secret: env("ADMIN_JWT_SECRET", "0a40028cd1635f8b044343a747e83bfe"),
